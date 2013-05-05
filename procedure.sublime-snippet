@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-procedure ${1:myrecord}($2);
+procedure ${1:myprocedure}($2);
 begin
 	$3
 end;
