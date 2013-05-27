@@ -1,10 +1,12 @@
 <snippet>
     <content><![CDATA[
 program ${1};
+uses crt;
 
 type
 	${2}
 begin
+clrscr;
 
 end.
 
