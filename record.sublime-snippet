@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:myrecord} = record;
+${1:myrecord} = record
 	${2:myfield} : $3;
 	$0
 end;

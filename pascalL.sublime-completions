@@ -30,7 +30,7 @@
 		{ "trigger": "WordBool", "contents": "WordBool" },
 		{ "trigger": "LongBool", "contents": "LongBool" },
 		{ "trigger": "ByteBool", "contents": "ByteBool" },
-		{ "trigger": "Real", "contents": "Real" },
+		{ "trigger": "real", "contents": "Real" },
 		{ "trigger": "Single", "contents": "Single" },
 		{ "trigger": "Double", "contents": "Double" },
 		{ "trigger": "Extended", "contents": "Extended" },
@@ -39,6 +39,9 @@
 		{ "trigger": "Char", "contents": "Char" },
 		{ "trigger": "const", "contents": "const" },
 		{ "trigger": "array", "contents": "array[$1..$2] of $3" },
+
+		// string stuff
+		{ "trigger": "pos", "contents": " pos(${1:needle}, ${2:haystack})" },
 
 		{ "trigger": "procedure", "contents": "procedure $1;\nbegin\n\t${2}\nend;" },		
 		{ "trigger": "function", "contents": "function $1($2):$3\nbegin\n\t${1}:=\nend;" },
@@ -56,6 +59,8 @@
 		{ "trigger": "filesize", "contents": "filesize(${1:archivo})"},
 		{ "trigger": "filepos", "contents": "filepos(${1:archivo})"},
 		{ "trigger": "assign", "contents": "assign(${1:archivo},${2:nombre});" },
-		{ "trigger": "seek", "contents": "seek(${1:archivo},${2:posicion});" }
+		{ "trigger": "seek", "contents": "seek(${1:archivo},${2:posicion});" },
+		{ "trigger": "move", "contents": "move(${1:fuente}, ${2:destino}, ${3:largo});" }
+
 	]
 }

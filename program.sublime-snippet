@@ -5,6 +5,13 @@ uses crt;
 
 type
 	${2}
+
+{ Main App Variables }
+var
+
+
+{ end Main App Variables }
+
 begin
 clrscr;
 
